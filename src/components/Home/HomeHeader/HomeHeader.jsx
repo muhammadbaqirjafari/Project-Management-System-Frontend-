@@ -5,6 +5,7 @@ import {
   Mail as MailIcon,
   Notifications as NotificationsIcon,
 } from "@material-ui/icons";
+
 import { Header } from "../../Header/Header";
 // importing css
 import styles from "./HomeHeader.module.css";

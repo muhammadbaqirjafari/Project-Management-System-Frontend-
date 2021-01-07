@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Adding css
 import "./App.css";
+import Footer from './components/Footer/Footer.jsx';
 
 // Components
 import { Signin, Home, Signup, ResetPassword, OTP } from "./components";
@@ -18,6 +19,7 @@ export const App = () => {
           <Route path="/home" element={<Home />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 };

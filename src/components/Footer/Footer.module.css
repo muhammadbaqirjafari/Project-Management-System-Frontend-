@@ -1,0 +1,33 @@
+.footer{
+    color: white;
+    background-color: var(--default-color);
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.span {
+    margin-left: 5vh;
+    font-size: var(--max-size);
+    font-weight: bolder;
+    color: #ffffff;
+    text-shadow: 0px 0px 6px var(--default-color);
+  }
+  .span:hover {
+    cursor: pointer;
+  }
+  .col-2{
+      border-spacing: 10ch;
+  }
+  /* <a> */
+  .a:hover {
+    text-decoration: none;
+  }  
+  .icon {
+    color: white !important;
+    display: inline;
+    margin: 0%;
+  }
+  
