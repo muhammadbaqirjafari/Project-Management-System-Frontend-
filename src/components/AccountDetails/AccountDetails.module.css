@@ -1,0 +1,143 @@
+/* Root CSS */
+.root {
+      text-align: center;
+      margin-top: 6vh;
+      font-family: "Lato", sans-serif;
+      /* line-height: 0.5rem; */
+}
+.mainForm
+{
+      width: 100%;
+}
+
+
+.mainDiv
+{
+      font-family: sans-serif;
+      text-align: center;
+      width: 100%;
+}
+.topDiv
+{
+      display: flex;
+      padding-top: 0;
+      margin-top: -40px;
+}
+.title {
+      background-color: rgb(17, 82, 147);
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      color: antiquewhite;
+      text-align: left !important;
+      padding: 64px 64px;
+
+
+}
+
+
+/* main Card holding DIV */
+.mainCardDiv
+{
+      margin: -16px;
+      width: auto;
+      max-width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 5%;
+
+}
+
+/* CARD 1 // Link Card */
+.card1
+{
+      width:250px;
+}
+
+
+.linkCard{
+      position: relative;
+      margin-left: 5%;
+      height: auto;
+      margin-bottom: 5%; 
+
+}
+
+a {
+      border: none !important;
+
+}
+a:hover {
+      border-left: 2px solid rgb(17, 82, 147) !important;
+
+}
+.mainCard
+{
+      padding: 16px;
+      position: relative;
+      color: antiquewhite;
+      text-align: left !important;
+      padding: 40px 20px;
+      width: 130%;
+      height: 100%;
+
+
+
+
+}
+.card2
+{
+      left: 50%;
+
+}
+.mainCardTitle
+{
+      font-weight: 200;
+}
+
+.nameField
+{
+        margin-right: 5%;
+        width: 100%;
+}
+.emailField
+{
+      text-align: right ;
+      width: 100%;
+
+}
+.bioField
+{
+      text-align: left;
+}
+
+.countryField
+{
+      margin-right: 5%;
+      width: 100%;
+}
+.cityField
+{
+      text-align: right;
+      width: 100%;
+}
+
+.dd1
+{
+      width: 100%;
+      margin-left: 15px;
+
+}
+
+
+
+.CardFieldlabel{
+      text-align: left;
+      font-size: 20px !important;
+      margin-bottom: 0em;
+}
+.AccountsBtn
+{
+        background-color: var(--default-color) !important;
+        color: white !important;
+}

@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 // Components
-import { Signin, Home, Signup, ResetPassword, OTP } from "./components";
+import { Signin, Home, Signup, ResetPassword, OTP , AccountDetails  } from "./components";
 
 export const App = () => {
   return (
@@ -16,6 +16,8 @@ export const App = () => {
           <Route path="/resetPassword" element={<ResetPassword />} />
           <Route path="/otp" element={<OTP />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/accountDetails" element={<AccountDetails />} />
+          
         </Routes>
       </BrowserRouter>
     </div>
