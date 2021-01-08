@@ -32,7 +32,7 @@ export const HomeHeader = () => {
           // onClick={handleProfileMenuOpen}
           color="inherit"
         >
-          <AccountCircle className={styles.icon} />
+          <AccountCircle  className={styles.icon}  />
         </IconButton>
       </div>
     </Header>
